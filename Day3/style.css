@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.fitem{
+    width: 100px;
+    height: 100px;
+    border: 5px black solid;
+    background-color: aqua;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.fcontainer{
+    height: 300px;
+    border: 5px solid greenyellow;
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+    justify-content: space-between;
+    /* flex-direction:column; */
+
+}
+
+.fitem1{
+    order: 1;  
+    flex-grow: 2;
+}
